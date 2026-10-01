@@ -1,0 +1,1 @@
+import { FAQList } from "@/components/FAQList"; export const metadata={title:"FAQ | Azza.id Travel and Tours"}; export default function FAQ(){return <section className="narrow-page"><p className="eyebrow">FAQ</p><h1>Jawaban untuk<br/><em>persiapan perjalanan Anda.</em></h1><FAQList/></section>}

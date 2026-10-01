@@ -1,0 +1,10 @@
+.mobile-nav{display:none}
+@media(max-width:900px){
+  .desktop-nav{display:none!important}
+  .mobile-nav{display:block;margin-left:auto;position:relative}
+  .mobile-nav summary{cursor:pointer;list-style:none;color:var(--blue);font-size:13px;font-weight:800;border:1px solid var(--line);padding:8px 10px}
+  .mobile-nav summary::-webkit-details-marker{display:none}
+  .mobile-nav nav{position:absolute;top:45px;right:0;width:210px;margin:0;padding:10px 17px 14px;background:#fff;border:1px solid var(--line);box-shadow:0 12px 22px rgba(4,59,143,.12);display:grid;gap:2px}
+  .mobile-nav nav a{padding:8px 0}
+  .header-cta{margin-left:0}
+}

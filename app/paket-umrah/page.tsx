@@ -1,0 +1,3 @@
+import { packages } from "@/data/packages"; import { PackageCard } from "@/components/PackageCard";
+export const metadata={title:"Paket Umrah | Azza.id Travel and Tours"};
+export default function PackageCatalog(){return <><section className="page-hero"><p className="eyebrow">PAKET UMRAH</p><h1>Temukan Paket yang<br/><em>Sesuai untuk Perjalanan Anda</em></h1><p>Setiap detail yang ditampilkan bersumber dari poster resmi Azza.id.</p></section><section className="section catalog"><div className="catalog-note">{packages.length} paket tersedia <span>Gunakan halaman detail untuk melihat poster sumber dan informasi lengkap.</span></div><div className="package-grid">{packages.map(p=><PackageCard key={p.id} pkg={p}/>)}</div></section></>}
